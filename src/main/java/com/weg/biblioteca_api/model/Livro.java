@@ -4,7 +4,10 @@ public class Livro {
     private Long id;
     private String titulo, autor;
     private int ano_publicacao;
-    
+
+    public Livro() {
+    }
+
     public Livro(Long id, String titulo, String autor, int ano_publicacao) {
         this.id = id;
         this.titulo = titulo;

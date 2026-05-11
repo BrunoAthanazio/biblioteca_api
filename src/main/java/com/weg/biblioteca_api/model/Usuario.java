@@ -4,6 +4,9 @@ public class Usuario {
     private Long id;
     private String nome, email;
     
+    public Usuario() {
+    }
+
     public Usuario(Long id, String nome, String email) {
         this.id = id;
         this.nome = nome;
@@ -31,6 +34,4 @@ public class Usuario {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    
 }
